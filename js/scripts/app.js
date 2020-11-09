@@ -31,13 +31,8 @@ $(document).ready(function () {
    
 });
 
-//<div id="postTitle"></div>
-//<div id="postUrl"></div>
-//author
-
 function createCard(threadTitle, threadUrl, author){
     
-        
      const card = document.createElement('div');
         contentElement.appendChild(card);
     card.innerHTML = `
