@@ -14,6 +14,6 @@ git clone https://github.com/Vattenkruka/legendary-umbrella.git
 
 ## Usage
 #### Graphical Interface / Webpage
-[Example of webpage](https://github.com/Vattenkruka/legendary-umbrella/blob/main/public/images/examplepicture.PNG)
+![Example of webpage](https://github.com/Vattenkruka/legendary-umbrella/blob/main/public/images/examplepicture.PNG)
 ## Authors
 [Paria Karim](https://github.com/lillap) & [Oscar Dahlquist](https://github.com/Vattenkruka)
