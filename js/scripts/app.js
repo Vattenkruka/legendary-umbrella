@@ -1,5 +1,6 @@
 const threadTitles = [];
 const threadUrlList = [];
+const authors = [];
 
 $(document).ready(function () {
     console.log("Document loaded");
@@ -11,6 +12,8 @@ $(document).ready(function () {
             for(let i = 0 ; i <= response.data.children.length ; i++){
                 threadTitles.push(response.data.children[i].data.title);
                 threadUrlList.push(response.data.children[i].data.permalink);
+                authors.push(response.data.children[i].data.author);
+                
             }
         },
         error: function () {
