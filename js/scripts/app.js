@@ -45,7 +45,7 @@ function createCard(threadTitle, threadUrl, author){
       <div class="card-body">
     <h5 class="card-title">${threadTitle}</h5>
     <p class="card-text">${author}</p>
-    <a href="${threadUrl}" class="btn btn-primary">Take me to the post</a>
+    <a href="https://www.reddit.com/${threadUrl}" class="btn btn-primary">Take me to the post</a>
   </div>
 </div>
     `
