@@ -3,11 +3,6 @@ $(document).ready(function () {
     $.ajax({
         url: "https://www.reddit.com/r/choosingBeggars/top.json?limit=10",
         method: "GET",
-        headers: {
-            "Content-Type": "application/json",
-    
-        },
-    
         success: function (response) {
             console.log(response);
             $("#content").html(response.title);
